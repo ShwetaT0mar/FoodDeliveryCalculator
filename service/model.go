@@ -6,7 +6,7 @@ type OrderStruct struct {
 	Distance float32
 }
 
-type responseDelivery struct {
+type deliveryResponse struct {
 	Placed  bool
 	Message string
 }

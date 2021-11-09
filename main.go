@@ -40,6 +40,7 @@ func Clock() {
 	go Timer(7)
 }
 
+//reduces wait time every passing minute
 func Timer(slot int) {
 
 	for {
